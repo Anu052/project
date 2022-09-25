@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+padding: 10px 20px;
+font-size: 1.5rem;
+font-weight: 800;
+cursor: pointer;
+}
+nav ul li:hover{
+    background-color: rgb(14, 12, 12);
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+.log img{
+    width: 300px;
+    display: block;
+}
+.section1{
+    width: 100%;
+    height: 620px;
+    background-image: url("https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+footer{
+    background-color: rgb(14, 12, 12);
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    font-size: 1.2rem;
+    border:3px solid white;
+    border-radius: 20px;
+    background-color: rgb(14, 12, 12);
+}
+.cont h1{
+    padding: 20px;
+}
+.cont input{
+    margin: 15px;
+    padding:0.4rem;
+    border-radius: 5px;
+    color: black;
+    
+}
+#submit{
+    padding: 0.4rem 4.1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submit:hover{
+background-color: rgb(89, 91, 212);
+}
+@media (max-width:1000px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .section1{
+        width: 100%;
+        height: 550px;
+
+    }
+    .cont{
+        width: 100%;
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    nav ul li {
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+    }
+    .log img{
+        width: 170px;
+        display: block;
+    }
+    .cont h1{
+        font-size: 1.8rem;
+    }
+    .container{
+        height: 250px;
+    }
+}
